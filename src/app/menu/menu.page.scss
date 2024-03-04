@@ -1,0 +1,23 @@
+/* menu.page.scss */
+
+.swiper-container {
+    width: 100%;
+    height: 70vh; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff; /* Fond du slide */
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .caption {
+    margin-top: 10px;
+  }
+  

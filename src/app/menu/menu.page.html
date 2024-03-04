@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar fill="clear">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Menu</ion-title>
+    <ion-icon [routerLink]="['/routePath']" name="cart-outline" slot="end" ></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Remplacez les liens par les images réelles de vos plats -->
+      <div class="swiper-slide">
+        <img src="lien_image_plat_1" alt="Plat 1">
+        <div class="caption">Nom du Plat 1</div>
+      </div>
+      <div class="swiper-slide">
+        <img src="lien_image_plat_2" alt="Plat 2">
+        <div class="caption">Nom du Plat 2</div>
+      </div>
+      <!-- Ajoutez plus de slides au besoin -->
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</ion-content>
+
+
+
+
+
+
